@@ -1,0 +1,127 @@
+/* Default CSS properties */
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+
+img {
+max-width: 100%;
+max-height: auto;
+}
+
+/* Container */
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    box-shadow: 0 0 35px darkgray;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* Brand */
+
+.brand a, .brand img {
+    display: block;
+}
+
+/* Menu */
+
+nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: black;
+    padding: 10px 15px;
+    font-size: 18px;
+    display: block;
+}
+
+nav a:hover {
+    background:black;
+    color: white;
+}
+
+/* Slider */
+
+.slider img {
+    display: block;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Article */
+
+article {
+    width: 70%;
+    padding: 30px;
+}
+
+aside {
+width:30%;
+padding: 20px;
+background-color: lightgray;
+border-left: 1px solid darkgray;
+font-family: 'Modak', cursive;
+}
+
+.widget {
+    margin-bottom: 40px;
+
+}
+
+.widget ul {
+    list-style-type: square;
+    padding: 0 0 0 18px;
+    margin: 0;
+
+}
+
+.widget li {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+
+footer {
+    background-color: lightgray;
+    border-top: 1px solid darkgray;
+    padding: 22px 18px;
+    text-align: center;
+    
+}
+
+footer p {
+    margin: 0;
+
+}
